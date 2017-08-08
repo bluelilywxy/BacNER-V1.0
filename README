@@ -1,0 +1,20 @@
+BacNER:
+    Implementation of the Bacteria Named Entity Recognition.
+    Xiaoyan Wang
+    email:2436250388xy@sina.com
+    Release 1.0
+    2017.8.8
+
+Initial setup
+    To use the BacNER, you need windows,Python 2.7, with NLTK installed.
+
+To run:
+	Run: python BacNER.py or double click on start.bat.
+
+	Input: a folder path(relative path or absolute path,such as"test") contains files you want to recognize the bacteria named entity.
+
+	Output: the result files with IOB2 format in a folder named "result", we also provided another format file in "bacteria". In particular, each line in a file of "bacteria" is:
+		<current sentence number> <start position of the named entity in current sentence> <end position in current sentence>
+
+	
+  

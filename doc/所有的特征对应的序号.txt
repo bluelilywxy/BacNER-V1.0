@@ -1,0 +1,48 @@
+全部43个子特征如下：
+F0	'token',	单词本身  unigram,Bigram,Trigram  
+F1	'CapWord',	首字母大写
+F2	'AllCaps',	全部大写字母
+F3	'CapsMix', 	大小写字母组合
+F4	'AlphaDigitMix',	字母数字交替组合
+F5	'AlphaDigit',	字母数字顺序组合
+
+F6	'Hyphen',	包含连字符
+F7	'InitHyphen',	以连字符开始
+F8	'EndHyphen',	一连字符结束
+F9	'Punctuation',	停顿标点符号
+F10	'Quote',	 引号
+F11	'GreekLetter', 	希腊字母
+F12	'UpperLetter',	大写字母
+F13	'Numeral',	一位数字
+F14	'TwoNumeral',	两位数字
+F15	'ContainSlaslT',	包含"/"
+F16	'LeftMarkChar',		左括号
+F17	'RightMarkChar',	右括号
+
+F18	'EndDot', 	0个以上字母开始，以点结束
+F19	'OneOrTwoLetter',	单个或两个字母组成
+F20	'AllDigit',	全部数字
+F21	'Equal',	单独=，含有等号，=字母
+F22	'Underline',	含有下划线
+F23	'Plus',	含有‘+’
+
+
+F24	'word_length'	词长信息特征
+F25	'keywords_feature',	关键词特征
+F26	'prefix3',	前缀（单词前3个字符）
+F27	'prefix4',	前缀（单词前4个字符）
+F28	'suffix3',	后缀
+F29	'suffix4',	后缀
+F30	'morph',	词形
+F31	's_morph',	词形
+F32	'left_boundary', 	细菌实体左边界词
+F33	'right_boundary', 	细菌实体右边界词
+F34	'Unary_feature',	一元词
+F35	'Nested_feature', 	嵌套词  unigram,Bigram,Trigram  
+F36	'StopWord_feature',	停用词
+F37	'CommenWord_feature', 	通用词
+F38	'Context_feature',	上下文词
+F39	'POS_feature',	词性  unigram,Bigram,Trigram  
+F40	'dict', 	词典单词  unigram,Bigram,Trigram  
+F41	'dict_U', 	词典一元词  unigram,Bigram,Trigram  
+F42	'dict_N',	词典嵌套词  unigram,Bigram,Trigram  

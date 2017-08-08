@@ -1,0 +1,8 @@
+supernatant-stimulated	3	1.0
+water-treated	2	1.0
+name	2	1.0
+coli-type	2	1.0
+K-treated	2	1.0
+LPS-induced	5	1.0
+425	2	1.0
+formerly	8	0.75
